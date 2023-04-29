@@ -1,0 +1,46 @@
+.message {
+    display: block;
+    margin-left: 20px;
+}
+
+.imageAndText {
+    display: flex;
+}
+
+.imageAndText img {
+    width: 60px;
+    margin-right: 10px;
+}
+
+.text {
+
+    border-radius: 10px;
+    background-color: #0066cc;
+    padding: 10px;
+}
+
+.text:after {
+
+
+}
+
+.name {
+    color: white;
+
+}
+
+.messageText {
+
+    color: white;
+
+
+}
+
+.time {
+
+
+    font-size: 8px;
+    font-weight: 700;
+    margin-left: 20px;
+
+}

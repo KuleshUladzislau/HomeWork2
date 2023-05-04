@@ -10,22 +10,22 @@ type GreetingContainerPropsType = {
 export const pureAddUser = (name: string, setError: any, setName: (name: string) => void, addUserCallback: (name: string) => void) => {
 
     if (name.trim() === '') {
-       return  setError('Ошибка! Введите имя!')
+        return setError('Ошибка! Введите имя!')
     }
-        addUserCallback(name);
-        setName('')
+    addUserCallback(name);
+    setName('')
 
     // если имя пустое - показать ошибку, иначе - добавить юзера и очистить инпут
 }
 
 export const pureOnBlur = (name: string, setError: any) => {
-    if(name.trim()===''){
+    if (name.trim() === '') {
         setError('Ошибка! Введите имя!')
     }// если имя пустое - показать ошибку
 }
 
-export const pureOnEnter = (e: KeyboardEvent, addUser: ()=>void) => {
-    if(e.key === 'Enter') {
+export const pureOnEnter = (e: KeyboardEvent, addUser: () => void) => {
+    if (e.key === 'Enter') {
         addUser()
     }
 
@@ -45,12 +45,18 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({
     const [name, setName] = useState<string>('') // need to fix any
     const [error, setError] = useState<string>('') // need to fix any
 
-    const setNameCallback = (e:ChangeEvent<HTMLInputElement>) => {
+    const setNameCallback = (e: ChangeEvent<HTMLInputElement>) => {
 
         // need to fix any
-
-        setName(e.currentTarget.value)
-        error && setError('Ошибка! Введите имя!')// need to fix
+        const currentInput = e.currentTarget.value.trim().length
+        if(currentInput === 0){
+            error && setError('Ошибка! Введите имя!')
+        }
+        else {
+            setError('')
+        }
+            setName(e.currentTarget.value)
+        // need to fix
 
     }
     const addUser = () => {
@@ -66,9 +72,9 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({
     }
 
     const totalUsers = users.length // need to fix
-    const lastUserName = users.map(u=>u.name).pop()
+    const lastUserName = users.map(u => u.name).pop()
 
-   // need to fix
+    // need to fix
 
     return (
         <Greeting

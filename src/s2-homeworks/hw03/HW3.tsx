@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import { v1 } from 'uuid'
 import s2 from '../../s1-main/App.module.css'
 import GreetingContainer from './GreetingContainer'
+import {futimes} from "fs";
+import user from "../hw08/User";
 
 /*
 * 1 - описать тип UserType
@@ -19,20 +21,23 @@ import GreetingContainer from './GreetingContainer'
 
 // types
 export type UserType = {
-    _id: any // need to fix any
-    name: any // need to fix any
+    _id: number // need to fix any
+    name: string // need to fix any
 }
 
-export const pureAddUserCallback = (name: any, setUsers: any, users: any) => { // need to fix any
+export const pureAddUserCallback = (name: string, setUsers: (users:UserType[])=>void, users: Array<UserType>) => { // need to fix any
+
     const user = { // need to fix
+        name,
+        _id:1
     }
     setUsers([...users, user])
 }
 
 const HW3 = () => {
-    const [users, setUsers] = useState<any>([]) // need to fix any
+    const [users, setUsers] = useState<Array<UserType>>([]) // need to fix any
 
-    const addUserCallback = (name: any) => { // need to fix any
+    const addUserCallback = (name: string) => { // need to fix any
         pureAddUserCallback(name, setUsers, users)
     }
 

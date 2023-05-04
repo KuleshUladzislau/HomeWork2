@@ -48,8 +48,10 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({
     const setNameCallback = (e:ChangeEvent<HTMLInputElement>) => {
 
         // need to fix any
-        setName(e.currentTarget.value) // need to fix
-        error && setError('')
+
+        setName(e.currentTarget.value)
+        error && setError('Ошибка! Введите имя!')// need to fix
+
     }
     const addUser = () => {
         pureAddUser(name, setError, setName, addUserCallback)

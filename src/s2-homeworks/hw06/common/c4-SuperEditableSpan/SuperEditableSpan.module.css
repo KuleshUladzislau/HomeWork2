@@ -1,11 +1,16 @@
 .spanBlock {
+    display: flex;
+    gap:20px
 }
 
 .span {
 }
 
 .input {
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
 }
 
 .pen {
+
 }

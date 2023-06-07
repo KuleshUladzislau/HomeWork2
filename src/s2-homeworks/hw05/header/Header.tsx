@@ -21,7 +21,9 @@ export const Header: FC<PropsType> = ({handleOpen}) => {
                 : currentPath === PATH.JUNIOR_PLUS
                     ? 'Junior Plus'
                     : 'Error'
+
     return (
+
         <>
             <div id={'hw5-header'} className={s.header}>
                 <img
@@ -31,7 +33,7 @@ export const Header: FC<PropsType> = ({handleOpen}) => {
                     onClick={handleOpen}
                     alt={'open menu'}
                 />
-                <h1>{pageName}</h1>
+                <h1>{ currentPath === '/' ? 'Pre-junior' : pageName}</h1>
             </div>
         </>
     )

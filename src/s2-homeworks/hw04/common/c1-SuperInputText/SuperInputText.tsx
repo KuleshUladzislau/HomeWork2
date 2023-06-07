@@ -36,11 +36,13 @@ const SuperInputText: React.FC<SuperInputTextPropsType> = (
     }
 ) => {
     const onChangeCallback = (e: ChangeEvent<HTMLInputElement>) => {
+
         onChange?.(e) // если есть пропс onChange, то передать ему е (поскольку onChange не обязателен)
 
         onChangeText?.(e.currentTarget.value)
     }
     const onKeyPressCallback = (e: KeyboardEvent<HTMLInputElement>) => {
+
         onKeyPress?.(e)
 
         onEnter && // если есть пропс onEnter
@@ -52,10 +54,11 @@ const SuperInputText: React.FC<SuperInputTextPropsType> = (
         + (spanClassName ? ' ' + spanClassName : '')
     const finalInputClassName = s.input
         + (error ? ' ' + s.errorInput : ' ' + s.superInput)
-        + (className ? ' ' + className : '') // задача на смешивание классов
+        + (className ? ' ' + s.input : '') // задача на смешивание классов
 
     return (
         <div className={s.inputWrapper}>
+
             <input
                 id={id}
                 type={'text'}
@@ -64,11 +67,12 @@ const SuperInputText: React.FC<SuperInputTextPropsType> = (
                 className={finalInputClassName}
                 {...restProps} // отдаём инпуту остальные пропсы если они есть (value например там внутри)
             />
+
             <span
                 id={id ? id + '-span' : undefined}
                 className={finalSpanClassName}
             >
-                {error}
+            {error}
             </span>
         </div>
     )

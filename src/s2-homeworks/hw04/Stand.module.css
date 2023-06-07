@@ -2,12 +2,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 100px;
+
 }
 
 .inputs {
     display: flex;
     flex-direction: column;
     gap: 48px;
+    padding-left: 20px;
 }
 
 .buttons {
@@ -20,4 +23,5 @@
     display: flex;
     flex-direction: column;
     gap: 36px;
+
 }

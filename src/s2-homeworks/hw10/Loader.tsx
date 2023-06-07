@@ -1,3 +1,3 @@
-import s from './Loader.module.css'
+import preloader from './Spinner-1s-200px (1).svg'
 
-export const Loader = () => <div className={s.loader}/>
+export const Loader = () => <img src={preloader}/>

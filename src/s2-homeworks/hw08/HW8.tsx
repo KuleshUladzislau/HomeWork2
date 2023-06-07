@@ -51,6 +51,7 @@ const HW8 = () => {
             homeWorkReducer(initialPeople, {type: 'check', payload: 18})
         ) // совершеннолетние
         setCurrentSort('18')
+
     }
 
     return (

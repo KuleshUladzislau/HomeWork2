@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a743427e-3e96-402e-80cb-30fc9d59cfb6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/JuniorPlus.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/JuniorPlus.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw12/HW12.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw12/HW12.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw12/HW12.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw12/HW12.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw12/bll/themeReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw12/bll/themeReducer.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2P72YgnrHEaEASDk2NCaJ3jlYr2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\JavaScript\\IncubatorItem\\same\\my-app\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a743427e-3e96-402e-80cb-30fc9d59cfb6" name="Changes" comment="" />
+      <created>1682793854921</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682793854921</updated>
+      <workItem from="1682793860158" duration="646000" />
+      <workItem from="1682850446470" duration="86000" />
+      <workItem from="1682850864375" duration="118000" />
+      <workItem from="1682858921033" duration="55000" />
+      <workItem from="1683115838881" duration="400000" />
+      <workItem from="1683130219135" duration="7336000" />
+      <workItem from="1683140089466" duration="2388000" />
+      <workItem from="1683142553916" duration="961000" />
+      <workItem from="1683172791698" duration="6893000" />
+      <workItem from="1683180046966" duration="991000" />
+      <workItem from="1683182023857" duration="2994000" />
+      <workItem from="1683187074374" duration="798000" />
+      <workItem from="1683266356521" duration="42000" />
+      <workItem from="1683372862983" duration="15000" />
+      <workItem from="1683394034199" duration="318000" />
+      <workItem from="1683571355894" duration="556000" />
+      <workItem from="1683610875521" duration="11521000" />
+      <workItem from="1683634409536" duration="1433000" />
+      <workItem from="1683727920319" duration="6000" />
+      <workItem from="1683740315075" duration="918000" />
+      <workItem from="1683872899824" duration="10026000" />
+      <workItem from="1683884263218" duration="166000" />
+      <workItem from="1683884647116" duration="74000" />
+      <workItem from="1683916170236" duration="992000" />
+      <workItem from="1684002676939" duration="1330000" />
+      <workItem from="1684577892275" duration="3874000" />
+      <workItem from="1684582167029" duration="71000" />
+      <workItem from="1684598021219" duration="197000" />
+      <workItem from="1684598269973" duration="1215000" />
+      <workItem from="1684757895267" duration="5486000" />
+      <workItem from="1684845418075" duration="2842000" />
+      <workItem from="1685196063293" duration="7048000" />
+      <workItem from="1685203521165" duration="1708000" />
+      <workItem from="1685461766968" duration="282000" />
+      <workItem from="1685472730754" duration="6109000" />
+      <workItem from="1685478953644" duration="1391000" />
+      <workItem from="1685513553857" duration="6744000" />
+      <workItem from="1685860736599" duration="1177000" />
+      <workItem from="1685861972504" duration="1175000" />
+      <workItem from="1686156209776" duration="5117000" />
+      <workItem from="1686161422008" duration="1329000" />
+      <workItem from="1686397076604" duration="435000" />
+      <workItem from="1687155798911" duration="3551000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/s2-homeworks/hw03/Greeting.tsx</url>
+          <line>38</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/s2-homeworks/hw03/Greeting.tsx</url>
+          <line>39</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
